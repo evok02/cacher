@@ -2,7 +2,7 @@
 
 *Hand-made* version of caching proxy server written in go and containerized using Docker.
 
-## Motivaion
+## Motivation
 The goals of this project was to experiment with multiple instances of the app using containerization. Understanding the concepts behind the images and containers, as well as basic understanding of how they work behind the scene.
 Among interesting topics for me was namespaces, chroot and mounts as a primary source of "isolated" environment. Also i gained first experience configuring servers, in this project i used Caddy as a load-balancer.
 
